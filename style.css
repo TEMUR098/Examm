@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    border: 2px solid#ded8d8;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.nav_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav_right p {
+    font-size: 36px;
+    color: #424242;
+    font-weight: 700;
+}
+
+.form {
+    width: 750px;
+    border: 1px solid#ded8d8;
+    padding: 66px 55px 37px;
+    margin: 46px auto 0;
+    border-radius: 50px;
+    height: 786px;
+}
+
+.form__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__title {
+    font-size: 48px;
+    color: #0e0d5d;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 127px;
+    margin-bottom: 11px;
+}
+
+.btn__root {
+    display: flex;
+    background-color: #f5f5f5;
+    width: 533px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 8px 11px;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+w .btn_student {
+    /*width:255; */
+    border-radius: 15px;
+    /*backround-color: white; */
+    padding: 8px 40px;
+    text-align: center;
+    transition: 300ms;
+}
+
+.btn_parent {
+    border-radius: 15px;
+    padding: 8px 40px;
+    /*background-color: red; */
+    text-align: center;
+}
+
+.btn_student {
+    padding: 20px;
+    border-radius: 20px;
+    transition: 300ms;
+}
+
+.btn_student:hover {
+    background-color: white;
+    transition: 300ms;
+}
+
+.input_id {
+    width: 533px;
+    border-radius: 20px;
+    border: 1px solid rgba(117, 117, 117, 0.19);
+    padding: 21px 51px;
+    margin: auto;
+    margin-bottom: 40px;
+    background: rgba(250, 250, 250, 1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_id input {
+    background-color: transparent;
+    border: none;
+}
+
+.qccode {
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    opacity: 0.6;
+}
+
+.btn__form {
+    width: 202px;
+    height: 67px;
+    background-color: #F69E86;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    margin-top: 31px;
+}
+
+.form_btn {
+    display: flex;
+    justify-content: end;
+}
